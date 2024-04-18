@@ -1,0 +1,10 @@
+baseURL = 'https://ildenir.github.io'
+languageCode = 'pt-BR'
+title = 'My New Page'
+theme = "hyde"
+
+[params]
+  description="Olá! Bem-vindo ao meu site pessoal, um espaço dedicado a compartilhar tudo aquilo que me interessa e me apaixona."
+
+[Menus]
+  main = [{Name="About", URL = "http://localhost:1313/about"}]
