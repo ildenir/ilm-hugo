@@ -1,6 +1,6 @@
 baseURL = 'https://ildenir.github.io'
 languageCode = 'pt-BR'
-title = 'My New Page'
+title = 'Ildenir Barbosa'
 theme = "hyde"
 
 [params]
