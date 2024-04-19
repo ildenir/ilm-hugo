@@ -1,4 +1,6 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
+# Copiado do site do Hugo
+
 name: Deploy Hugo site to Pages
 
 on:
