@@ -1,0 +1,21 @@
+---
+title: "Sobre"
+author: "Ildenir Barbosa"
+date: 2017-09-07
+draft: false
+---
+
+* Bio
+
+Sou um entusiasta da computação formado em matemática pela Rural
+([[http://portal.ufrrj.br/][UFRRJ]]) e mestre em computação gráfica pela [[http://www.uff.br][UFF]]. Carioca atualmente residente no Rio de Janeiro do Brasil. No
+tempo vago, gosto de culinaria, agricultura, video game, artes graficas.
+
+* Interesses
+  - Emacs
+  - Desenvolvimento de jogos
+  - Computação científica
+  - Computação gráfica
+
+* Contato
+  Envie criticas, sugestões, elogios  email para [[mailto:ildenir+github@googlemail.com][Meu GMail]]

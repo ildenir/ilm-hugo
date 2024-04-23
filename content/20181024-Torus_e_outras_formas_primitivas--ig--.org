@@ -1,0 +1,20 @@
+---
+title: "Torus e outras formas primitivas"
+author: "Ildenir Barbosa"
+date: 2018-10-24
+draft: true
+---
+
+
+* Introducao
+  - hook : fase inicial importante ter objetos simples para criar cenas sem precisar
+    recorrer a arquivos com dados
+  - implementacao em scilab e javascript
+
+
+- torus
+-- formulacoes para vertices, normais, tangente e binormais
+
+
+
+* Referencia
