@@ -7,4 +7,4 @@ theme = "hyde"
   description="Olá! Bem-vindo ao meu site pessoal, um espaço dedicado a compartilhar tudo aquilo que me interessa e me apaixona."
 
 [Menus]
-  main = [{Name="About", URL = "http://localhost:1313/about"}]
+  main = [{Name="About", URL = "about"}]
