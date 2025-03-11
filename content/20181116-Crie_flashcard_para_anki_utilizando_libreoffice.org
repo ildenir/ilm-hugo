@@ -5,6 +5,7 @@ date: 2018-11-16
 draft: false
 ---
 
+
 * Introducao
 
 Quem nunca se frustrou ao passar horas estudando um determinado topico
@@ -41,8 +42,8 @@ por tamanha flexibilidade e confianca uma vez que os cartoes podem ser
 armazenados em hd/pendrive ou servidores como Google Drive, Dropbox,
 GMail, etc.
 
-#+CAPTION: O grafico ilustra como o conteudo estudado decai ao longo do tempo.
-[[../images/curva-esquecimento.png]]
+#+caption: O grafico ilustra como o conteudo estudado decai ao longo do tempo.
+[[file:../images/curva-esquecimento.png]]
 
 Com tantas vantagem em ter os decks de cartas em meio eletronico, como
 gerar todas as cartas de maneira pratica? O metodo consiste em
@@ -70,8 +71,8 @@ final consiste em gerar o arquivo csv que serah importado no anki.
 
 - Programa principal
 
-#+NAME: main
-#+BEGIN_SRC bash
+#+name: main
+#+begin_src bash
   LO=libreoffice
 
   [[ -e "$1" && "${1: -4}" == ".odp" ]] || help
@@ -88,47 +89,86 @@ final consiste em gerar o arquivo csv que serah importado no anki.
 
   # Gera arquivo csv a ser importado pelo anki
   create-csv-file
-#+END_SRC
+#+end_src
 
 - Funcoes auxiliares
 
-#+NAME: script-fun
-#+BEGIN_SRC bash
+#+name: script-fun
+#+begin_src bash
 
-    help()
-    {
-	echo "Uso: $0 <nome-apresentacao>"
-	echo "Nota: O programa anki deve estar instalado."
-	exit 1
-    }
+  help()
+  {
+      echo "Uso: $0 <nome-apresentacao>"
+      echo "Nota: O programa anki deve estar instalado."
+      exit 1
+  }
 
-    create-csv-file()
-    {
-	local images=$(ls ${DECK_DIR}/*.png | sort)
-	local count=0
-	local fout="${name}.csv"
-	local out=""
-	for im in ${images}; do
-	    image=$(basename $im)
-	    if (($count % 2)); then
-		out="${out} <img src=\"${image}\">\n"
-	    else
-		out="${out} <img src=\"${image}\"> ,"
-	    fi
-	    count=$(expr $count + 1)
-	done
-	echo -e ${out} > ${fout}
-    }
-#+END_SRC
+  create-csv-file()
+  {
+      local images=$(ls ${DECK_DIR}/*.png | sort)
+      local count=0
+      local fout="${name}.csv"
+      local out=""
+      for im in ${images}; do
+          image=$(basename $im)
+          if (($count % 2)); then
+              out="${out} <img src=\"${image}\">\n"
+          else
+              out="${out} <img src=\"${image}\"> ,"
+          fi
+          count=$(expr $count + 1)
+      done
+      echo -e ${out} > ${fout}
+  }
+#+end_src
 
 
 
 * Código completo
 
-#+BEGIN_SRC bash :tangle export-deck.bash :noweb yes :shebang #!/bin/bash
-  <<script-fun>>
-  <<main>>
-#+END_SRC
+#+begin_src bash
+
+  help()
+  {
+      echo "Uso: $0 <nome-apresentacao>"
+      echo "Nota: O programa anki deve estar instalado."
+      exit 1
+  }
+
+  create-csv-file()
+  {
+      local images=$(ls ${DECK_DIR}/*.png | sort)
+      local count=0
+      local fout="${name}.csv"
+      local out=""
+      for im in ${images}; do
+          image=$(basename $im)
+          if (($count % 2)); then
+              out="${out} <img src=\"${image}\">\n"
+          else
+              out="${out} <img src=\"${image}\"> ,"
+          fi
+          count=$(expr $count + 1)
+      done
+      echo -e ${out} > ${fout}
+  }
+  LO=libreoffice
+
+  [[ -e "$1" && "${1: -4}" == ".odp" ]] || help
+
+  DECK_DIR="/tmp/decks-$$"
+  [[ -d ${DECK_DIR} ]] || mkdir -p ${DECK_DIR}
+  name=$(basename -s ".odp" $1)
+  ${LO} --headless --convert-to pdf --outdir "${DECK_DIR}" $1 > /dev/null 2>&1
+  gs -sDEVICE=pngalpha -o ${DECK_DIR}/${name}-%03d.png -r32 ${DECK_DIR}/${name}.pdf > /dev/null 2>&1
+  ANKI_COLLECTION_DIR=${HOME}/.local/share/Anki2/'User 1'/collection.media
+
+  [[ -d ${ANKI_COLLECTION_DIR} ]] || help
+  cp   ${DECK_DIR}/*.png "${ANKI_COLLECTION_DIR}"
+
+  # Gera arquivo csv a ser importado pelo anki
+  create-csv-file
+#+end_src
 
 * Conclusão
 
@@ -158,7 +198,10 @@ de audio/video e inclui-lo no arquivo de importacao csv. Mas isso
 complica por demais :).
 
 * Referencia
-  - [1] [[https://lifehacker.com/learn-chinese-faster-with-this-anki-add-on-1828938649][Learn chinese faster with this anki add on]]
-  - [2] [[http://blog.fluent-forever.com/create-better-flashcards/][8 ways to create better flashcards]]
-  - [3] [[https://en.wikipedia.org/wiki/Forgetting_curve][Wikipedia: Forgetting Curve]]
-  - [4] https://blog.wranx.com/ebbinghaus-forgetting-curve
+- [1] [[https://lifehacker.com/learn-chinese-faster-with-this-anki-add-on-1828938649][Learn chinese faster with this anki add on]]
+- [2] [[http://blog.fluent-forever.com/create-better-flashcards/][8 ways to create better flashcards]]
+- [3] [[https://en.wikipedia.org/wiki/Forgetting_curve][Wikipedia: Forgetting Curve]]
+- [4] https://blog.wranx.com/ebbinghaus-forgetting-curve
+
+
+
