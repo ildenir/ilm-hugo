@@ -1,9 +1,10 @@
 ---
 title: "Ferramentas desenvolvimento com lisdl"
-date: 2009-08-18
 author: "Ildenir Barbosa"
+date: 2009-08-18
 draft: false
 ---
+
 
 * Desenvolvimento com autotools
 
@@ -22,10 +23,10 @@ install~.
 Supondo que foi desenvolvido o codigo fonte ~main.cpp~. Para criar um
 makefile para o fonte, escrevemos o arquivo ~Makefile.am~ como segue:
 
-#+BEGIN_SRC makefile-automake
-    bin_PROGRAMS = teste
-    teste_SOURCES = main.cpp
-#+END_SRC
+#+begin_src makefile-automake
+  bin_PROGRAMS = teste
+  teste_SOURCES = main.cpp
+#+end_src
 
 
 Agora, execute o programa autoscan para gerar um template do arquivo
@@ -36,47 +37,47 @@ Execute ~cat configure.scan > configure.ac~
 
 Edite ~configure.ac~ como segue:
 
-#+BEGIN_SRC autoconf
+#+begin_src autoconf
 
-    -*- Autoconf -*-
+  -*- Autoconf -*-
 
-    # Process this file with autoconf to produce a configure script.
-
-
-    AC_PREREQ(2.61)
-
-    AC_INIT([teste], [0.0], [ildenir+github@googlemail.com])
-
-    AM_INIT_AUTOMAKE
+  # Process this file with autoconf to produce a configure script.
 
 
-    AC_CONFIG_SRCDIR([main.cpp])
+  AC_PREREQ(2.61)
 
-    #AC_CONFIG_HEADER([config.h])
+  AC_INIT([teste], [0.0], [ildenir+github@googlemail.com])
 
-
-
-    # Checks for programs.
-
-    AC_PROG_CXX
+  AM_INIT_AUTOMAKE
 
 
-    # Checks for libraries.
+  AC_CONFIG_SRCDIR([main.cpp])
+
+  #AC_CONFIG_HEADER([config.h])
 
 
-    # Checks for header files.
+
+  # Checks for programs.
+
+  AC_PROG_CXX
 
 
-    # Checks for typedefs, structures, and compiler characteristics.
+  # Checks for libraries.
 
 
-    # Checks for library functions.
+  # Checks for header files.
 
 
-    AC_CONFIG_FILES([Makefile])
+  # Checks for typedefs, structures, and compiler characteristics.
 
-    AC_OUTPUT
-#+END_SRC
+
+  # Checks for library functions.
+
+
+  AC_CONFIG_FILES([Makefile])
+
+  AC_OUTPUT
+#+end_src
 
 
 Execute ~aclocal; touch README, NEWS ; automake~. Caso esteja faltando
@@ -90,19 +91,19 @@ Para finalizar, compile a aplicacao com a sequencia de comandos
 Para utilizar SDL escreva o makefile como segue:
 
 
-#+BEGIN_SRC makefile-automake
-    SDL_LIBS= `sdl-config --libs`
+#+begin_src makefile-automake
+  SDL_LIBS= `sdl-config --libs`
 
-    SDL_INC = `sdl-config --cflags`
+  SDL_INC = `sdl-config --cflags`
 
-    INCLUDES = $(SDL_INC)
+  INCLUDES = $(SDL_INC)
 
-    bin_PROGRAMS = teste
+  bin_PROGRAMS = teste
 
-    teste_SOURCES = main.cpp
+  teste_SOURCES = main.cpp
 
-    teste_LDFLAGS = $(SDL_LIBS)
-#+END_SRC
+  teste_LDFLAGS = $(SDL_LIBS)
+#+end_src
 
 * Projetos SDL com AutoTools
 
@@ -111,83 +112,82 @@ para projetos sdl. A tecnica consiste em empregar o script m4 que vem
 na instalacao da libsdl. Suponha que temos um arquivo fontes main.c a
 ser linkado com a biblioteca sdl. Escreva o ~Makefile.am~ como segue:
 
-#+BEGIN_SRC makefile-automake
-    AUTOMAKE_OPTIONS = foreign
+#+begin_src makefile-automake
+  AUTOMAKE_OPTIONS = foreign
 
 
-    bin_PROGRAMS = sdldemo
+  bin_PROGRAMS = sdldemo
 
-    sdldemo_SOURCES = main.c
-#+END_SRC
+  sdldemo_SOURCES = main.c
+#+end_src
 
 
 o arquivo ~configure.ac~ como:
 
-#+BEGIN_SRC autoconf
-    # -*- Autoconf -*-
+#+begin_src autoconf
+  # -*- Autoconf -*-
 
-    # Process this file with autoconf to produce a configure script.
-
-
-    AC_PREREQ(2.57)
-
-    AC_INIT([sdldemo], [0.0.0],[ildenir+github@googlemail.com])
-
-    AM_INIT_AUTOMAKE
-
-    AC_CONFIG_SRCDIR([main.c])
-
-    #AC_CONFIG_HEADER([config.h])
+  # Process this file with autoconf to produce a configure script.
 
 
-    # Checks for programs.
+  AC_PREREQ(2.57)
 
-    AC_PROG_CC
+  AC_INIT([sdldemo], [0.0.0],[ildenir+github@googlemail.com])
 
+  AM_INIT_AUTOMAKE
 
-    # Checks for libraries.
+  AC_CONFIG_SRCDIR([main.c])
 
-
-    # Verifica SDL
-
-    SDL_VERSION=1.2.5
-
-    AM_PATH_SDL($SDL_VERSION,:, AC_MSG_ERROR([*** SDL version $SDL_VERSION not
-
-    found!]))
+  #AC_CONFIG_HEADER([config.h])
 
 
-    CFLAGS=" $CFLAGS $SDL_CFLAGS"
+  # Checks for programs.
 
-    LIBS=" $LIBS $SDL_LIBS "
-
-    #AC_SUBST(CFLAGS)
-
-    #AC_SUBST(LDFLAGS)
+  AC_PROG_CC
 
 
-    # Checks for header files.
-
-    AC_HEADER_STDC
-
-    AC_CHECK_HEADERS([stdlib.h])
+  # Checks for libraries.
 
 
-    # Checks for typedefs, structures, and compiler characteristics.
+  # Verifica SDL
 
-    AC_HEADER_STDBOOL
+  SDL_VERSION=1.2.5
+
+  AM_PATH_SDL($SDL_VERSION,:, AC_MSG_ERROR([*** SDL version $SDL_VERSION not
+
+  found!]))
 
 
-    # Checks for library functions.
+  CFLAGS=" $CFLAGS $SDL_CFLAGS"
 
-    AC_CHECK_FUNCS([atexit])
+  LIBS=" $LIBS $SDL_LIBS "
+
+  #AC_SUBST(CFLAGS)
+
+  #AC_SUBST(LDFLAGS)
 
 
-    AC_CONFIG_FILES([Makefile])
+  # Checks for header files.
 
-    AC_OUTPUT
+  AC_HEADER_STDC
 
-#+END_SRC
+  AC_CHECK_HEADERS([stdlib.h])
+
+
+  # Checks for typedefs, structures, and compiler characteristics.
+
+  AC_HEADER_STDBOOL
+
+
+  # Checks for library functions.
+
+  AC_CHECK_FUNCS([atexit])
+
+
+  AC_CONFIG_FILES([Makefile])
+
+  AC_OUTPUT
+#+end_src
 
 
 

@@ -5,15 +5,7 @@ date: 2013-03-12
 draft: false
 ---
 
-O processo de desenvolvimento de software exige que o programador
-permaneça longo período em frente a tela do computador criando e
-editando código fonte. Com o tempo esse período em frente a tela
-começa a causar desconforto visual. Para amenizar o desconforto, eh
-comum os desenvolvedor customizarem fonte e esquema de cor no ambiente
-de produção. Este post descreve como customizar o emacs 23 e 24 para
-utilizar as fontes Source Code Pro.
-
-[[../images/sourcepro_screen.jpg]]
+[[file:../images/sourcepro_screen.jpg]]
 
 As fontes Source Code Pro foram desenvolvidas especificamente para ser
 usada em ambientes de desenvolvimento. Recentemente, a fabricante
@@ -31,16 +23,16 @@ copie o arquivos .ttf para o para o diretório $HOME/.fonts e execute o
 comando shell
 
 
-#+BEGIN_SRC sh
-    fc-cache -fv
-#+END_SRC
+#+begin_src sh
+  fc-cache -fv
+#+end_src
 
 
 Agora as fontes jah estão instaladas, para verificar faça
 
-#+BEGIN_SRC sh
-    fc-list | grep -i source
-#+END_SRC
+#+begin_src sh
+  fc-list | grep -i source
+#+end_src
 
 A instalação das fontes TTF para todos os usuários do sistema exige
 permissão de acesso de root. O processo de instalação pode ser
@@ -52,13 +44,13 @@ Com as fontes disponíveis no sistema, basta configurar o emacs para
 usar a nova família de fontes. Para tanto, edite o arquivo de
 configuração $HOME/.emacs e insira a instrução elisp
 
-#+BEGIN_SRC emacs-lisp
+#+begin_src emacs-lisp
   (set-face-attribute 'default nil
-		      :family "Source Code Pro"
-		      :weight 'normal
-		      :width 'ultra-condensed
-		      :height 112)
-#+END_SRC
+                      :family "Source Code Pro"
+                      :weight 'normal
+                      :width 'ultra-condensed
+                      :height 112)
+#+end_src
 
 Esta configuração foi extraída do site
 http://emacswiki.org/emacs/SetFonts. Os parâmetros foram determinados
