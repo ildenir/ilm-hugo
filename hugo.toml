@@ -1,10 +1,10 @@
 baseURL = 'https://ildenir.github.io'
 languageCode = 'pt-BR'
 title = 'Ildenir Barbosa'
-theme = "hyde"
+theme = 'hyde'
 
 [params]
-  description="Olá! Bem-vindo ao meu site pessoal, um espaço dedicado a compartilhar tudo aquilo que me interessa e me apaixona."
+  description="Bem-vindo! Este é um espaço dedicado a compartilhar ideias, descobertas e etc."
 
 [Menus]
   main = [{Name="About", URL = "about"}]
