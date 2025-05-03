@@ -7,4 +7,4 @@ theme = 'hyde'
   description="Bem-vindo! Este é um espaço dedicado a compartilhar ideias, descobertas e etc."
 
 [Menus]
-  main = [{Name="About", URL = "about"}]
+  main = [{Name="About", URL = "about"}, {Name="Tags", URL="/tags"}]
