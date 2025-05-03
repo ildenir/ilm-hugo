@@ -3,6 +3,7 @@ title: "Torus e outras formas primitivas"
 author: "Ildenir Barbosa"
 date: 2018-10-24
 draft: true
+tags: [programming,cg,draft]
 ---
 
 

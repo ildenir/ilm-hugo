@@ -3,6 +3,7 @@ title: "Ferramentas desenvolvimento com lisdl"
 author: "Ildenir Barbosa"
 date: 2009-08-18
 draft: false
+tags: [gamedev,libsdl]
 ---
 
 

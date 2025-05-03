@@ -3,6 +3,7 @@ title: "Use ps5 joystick como keypad para usar com wacom tablet"
 author: "Ildenir Barbosa"
 date: 2025-02-26
 draft: false
+tags: [art,cg,blender,wacom]
 ---
 
 #+description: Use ps5 joystick como keypad para usar com wacom tablet

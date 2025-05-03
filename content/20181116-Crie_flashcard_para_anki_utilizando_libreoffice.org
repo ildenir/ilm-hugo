@@ -3,6 +3,7 @@ title: "Crie flashcard para anki utilizando libreoffice"
 author: "Ildenir Barbosa"
 date: 2018-11-16
 draft: false
+tags: [estudo,esl]
 ---
 
 

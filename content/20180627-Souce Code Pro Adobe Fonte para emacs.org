@@ -3,6 +3,7 @@ title: "Souce Code Pro Adobe Fonte para emacs"
 author: "Ildenir Barbosa"
 date: 2013-03-12
 draft: false
+tags: [emacs,programming]
 ---
 
 [[file:../images/sourcepro_screen.jpg]]

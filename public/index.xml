@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ildenir Barbosa</title>
-    <link>https://ildenir.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Ildenir Barbosa</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-BR</language>
     <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ildenir.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use ps5 joystick como keypad para usar com wacom tablet</title>
-      <link>https://ildenir.github.io/20250226-use_ps5_joystick_como_keypad_para_usar_com_wacom_tablet/</link>
+      <link>http://localhost:1313/20250226-use_ps5_joystick_como_keypad_para_usar_com_wacom_tablet/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ildenir.github.io/20250226-use_ps5_joystick_como_keypad_para_usar_com_wacom_tablet/</guid>
-      <description>Seu joystick como controle remoto … Usar um joystick do PS5 como um teclado complementar, especialmente em conjunto com uma mesa digitalizadora Wacom, oferece uma série de vantagens que podem otimizar seu fluxo de trabalho criativo e aumentar sua produtividade. Aqui estão alguns dos principais benefícios:&#xA;Ergonomia e conforto: O design ergonômico do joystick do PS5 permite que você mantenha uma postura mais natural durante longas sessões de trabalho, reduzindo a fadiga e o risco de lesões por esforço repetitivo (LER).</description>
+      <guid>http://localhost:1313/20250226-use_ps5_joystick_como_keypad_para_usar_com_wacom_tablet/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Seu joystick como controle remoto …&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Usar um joystick do PS5 como um teclado complementar, especialmente em&#xA;conjunto com uma mesa digitalizadora Wacom, oferece uma série de&#xA;vantagens que podem otimizar seu fluxo de trabalho criativo e aumentar&#xA;sua produtividade. Aqui estão alguns dos principais benefícios:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ergonomia e conforto:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;O design ergonômico do joystick do PS5 permite que você mantenha uma&#xA;postura mais natural durante longas sessões de trabalho, reduzindo a&#xA;fadiga e o risco de lesões por esforço repetitivo (LER).  A facilidade&#xA;de acesso aos botões e direcionais do joystick proporciona um controle&#xA;mais intuitivo e confortável do que o uso exclusivo de um teclado&#xA;tradicional.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Crie flashcard para anki utilizando libreoffice</title>
-      <link>https://ildenir.github.io/20181116-crie_flashcard_para_anki_utilizando_libreoffice/</link>
+      <link>http://localhost:1313/20181116-crie_flashcard_para_anki_utilizando_libreoffice/</link>
       <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://ildenir.github.io/20181116-crie_flashcard_para_anki_utilizando_libreoffice/</guid>
-      <description>Introducao Quem nunca se frustrou ao passar horas estudando um determinado topico por hora para em poucos minutos esquecer grande parte do que estudou? Ou quando um fato simplesmente nao surge com facilidade. Essa pequenas falhas de memoria podem impactar significativamente a produtividade nos estudos, seja de um idioma, uma determinada API de programacao ou um fato matematico. Por essa razao, manter um extenso conteudo na memoria torna-se um desafio jah que com o tempo a retencao do conteudo naturalmente declina.</description>
+      <guid>http://localhost:1313/20181116-crie_flashcard_para_anki_utilizando_libreoffice/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Introducao&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;&#xA;Quem nunca se frustrou ao passar horas estudando um determinado topico&#xA;por hora para em poucos minutos esquecer grande parte do que estudou?&#xA;Ou quando um fato simplesmente nao surge com facilidade. Essa pequenas&#xA;falhas de memoria podem impactar significativamente a produtividade&#xA;nos estudos, seja de um idioma, uma determinada &lt;span style=&#34;text-decoration: underline;&#34;&gt;API&lt;/span&gt; de programacao&#xA;ou um fato matematico. Por essa razao, manter um extenso conteudo na&#xA;memoria torna-se um desafio jah que com o tempo a retencao do conteudo&#xA;naturalmente declina. No entanto, exite metodos para tratar esse mau.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sobre</title>
-      <link>https://ildenir.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 07 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://ildenir.github.io/about/</guid>
-      <description>Bio Sou um entusiasta da computação formado em matemática pela Rural (UFRRJ) e mestre em computação gráfica pela UFF. Carioca atualmente residente no Rio de Janeiro do Brasil. No tempo vago, gosto de culinaria, agricultura, video game, artes graficas.&#xA;Interesses Emacs Desenvolvimento de jogos Computação científica Computação gráfica Contato Envie criticas, sugestões, elogios email para Meu GMail</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Bio&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;&#xA;Sou um entusiasta da computação formado em matemática pela Rural&#xA;(&lt;a href=&#34;http://portal.ufrrj.br/&#34;&gt;UFRRJ&lt;/a&gt;) e mestre em computação gráfica pela &lt;a href=&#34;http://www.uff.br&#34;&gt;UFF&lt;/a&gt;. Carioca atualmente residente no Rio de Janeiro do Brasil. No&#xA;tempo vago, gosto de culinaria, agricultura, video game, artes graficas.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-2&#34;&gt;&#xA;Interesses&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Emacs&lt;/li&gt;&#xA;&lt;li&gt;Desenvolvimento de jogos&lt;/li&gt;&#xA;&lt;li&gt;Computação científica&lt;/li&gt;&#xA;&lt;li&gt;Computação gráfica&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-3&#34;&gt;&#xA;Contato&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Envie criticas, sugestões, elogios  email para &lt;a href=&#34;mailto:ildenir+github@googlemail.com&#34;&gt;Meu GMail&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Geracao estatica website com emacs org-mode</title>
-      <link>https://ildenir.github.io/website-publish/</link>
+      <link>http://localhost:1313/website-publish/</link>
       <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://ildenir.github.io/website-publish/</guid>
-      <description>Overview Este documento descreve o processo de geracao estatica do site baseado no modulo org-mode do emacs.&#xA;O script emacs-lisp para configurar projeto do org-mode pode ser gerado processando este documento com org-mode babel. Basta executar o script seguinte com o comando C-c C-c com o cursor sobre o bloco.&#xA;(org-babel-tangle) (load-file (concat (file-name-base) &amp;#34;.el&amp;#34;)) O objetivo site eh ser simples e com pouco conteudo dinamico. Basicamente um conjunto de paginas de artigos e breve biografia.</description>
+      <guid>http://localhost:1313/website-publish/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Overview&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;&#xA;Este documento descreve o processo de geracao estatica do site baseado no&#xA;modulo org-mode do emacs.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;O script emacs-lisp para configurar projeto do org-mode pode ser gerado&#xA;processando este documento com&#xA;org-mode babel. Basta executar o script&#xA;seguinte com o comando &lt;code class=&#34;verbatim&#34;&gt;C-c C-c&lt;/code&gt; com o cursor sobre o bloco.&lt;/p&gt;&#xA;&lt;div class=&#34;src src-emacs-lisp&#34;&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (org-babel-tangle)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  (load-file (&lt;span style=&#34;color:#a6e22e&#34;&gt;concat&lt;/span&gt; (file-name-base) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.el&amp;#34;&lt;/span&gt;))&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&#xA;O objetivo site eh ser simples e com pouco conteudo&#xA;dinamico. Basicamente um conjunto de paginas de artigos e breve biografia.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Souce Code Pro Adobe Fonte para emacs</title>
-      <link>https://ildenir.github.io/20180627-souce-code-pro-adobe-fonte-para-emacs/</link>
+      <link>http://localhost:1313/20180627-souce-code-pro-adobe-fonte-para-emacs/</link>
       <pubDate>Tue, 12 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://ildenir.github.io/20180627-souce-code-pro-adobe-fonte-para-emacs/</guid>
-      <description>As fontes Source Code Pro foram desenvolvidas especificamente para ser usada em ambientes de desenvolvimento. Recentemente, a fabricante Adobe, gentilmente, liberou como open source o código fonte.&#xA;Uma abordagem completa sobre família de fontes pode ser encontrada em Source Code Pro.&#xA;Instalando as fontes TTF no Linux Para instalar as fontes eh necessário baixar os binários disponível em Source Code Pro e descompactar em um diretório temporário. Em seguida copie o arquivos .</description>
+      <guid>http://localhost:1313/20180627-souce-code-pro-adobe-fonte-para-emacs/</guid>
+      <description>&lt;p&gt;&#xA;&lt;img src=&#34;../images/sourcepro_screen.jpg&#34; alt=&#34;../images/sourcepro_screen.jpg&#34; title=&#34;../images/sourcepro_screen.jpg&#34; /&gt;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;As fontes Source Code Pro foram desenvolvidas especificamente para ser&#xA;usada em ambientes de desenvolvimento. Recentemente, a fabricante&#xA;Adobe, gentilmente, liberou como open source o código fonte.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;Uma abordagem completa sobre família de fontes pode ser encontrada em&#xA;&lt;a href=&#34;http://blogs.adobe.com/typblography/2012/09/source-code-pro.html&#34;&gt;Source Code Pro&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Instalando as fontes TTF no Linux&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;&#xA;Para instalar as fontes eh necessário baixar os binários disponível em&#xA;Source Code Pro e descompactar em um diretório temporário. Em seguida&#xA;copie o arquivos .ttf para o para o diretório $HOME/.fonts e execute o&#xA;comando shell&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ferramentas desenvolvimento com lisdl</title>
-      <link>https://ildenir.github.io/20180702-ferramentas_desenvolvimento_com_lisdl/</link>
+      <link>http://localhost:1313/20180702-ferramentas_desenvolvimento_com_lisdl/</link>
       <pubDate>Tue, 18 Aug 2009 00:00:00 +0000</pubDate>
-      <guid>https://ildenir.github.io/20180702-ferramentas_desenvolvimento_com_lisdl/</guid>
-      <description>Desenvolvimento com autotools As ferramentas automake e autoconf oferecem uma infraestrutura de compilacao automatizada que facilita em muito a vida do desenvolvedor ao gerar makefile portaveis. O uso eh simples basta um pouco de pratica e code snippets para facilitar.&#xA;Inicialmente, cria-se o codigo fonte do aplicativo. Em seguida, a regra de compilacao deve ser descrita em um arquivo Makefile.am que serah processado para gerar um arquivo de entrada configure.</description>
+      <guid>http://localhost:1313/20180702-ferramentas_desenvolvimento_com_lisdl/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Desenvolvimento com autotools&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;&#xA;As ferramentas &lt;code&gt;automake&lt;/code&gt; e &lt;code&gt;autoconf&lt;/code&gt; oferecem uma infraestrutura de&#xA;compilacao automatizada que facilita em muito a vida do desenvolvedor&#xA;ao gerar makefile portaveis. O uso eh simples basta um pouco de&#xA;pratica e &lt;strong&gt;code snippets&lt;/strong&gt; para facilitar.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;Inicialmente, cria-se o codigo fonte do aplicativo. Em seguida, a&#xA;regra de compilacao deve ser descrita em um arquivo &lt;code&gt;Makefile.am&lt;/code&gt; que&#xA;serah processado para gerar um arquivo de entrada &lt;code&gt;configure.in&lt;/code&gt; para&#xA;o script &lt;code&gt;configure&lt;/code&gt;. O arquivo &lt;code&gt;configure&lt;/code&gt; eh gerado pelo &lt;code&gt;autoconf&lt;/code&gt;. Daih,&#xA;a compilacao da aplicacao segue o padrao &lt;code&gt;configure &amp;amp;&amp;amp; make &amp;amp;&amp;amp; make&#xA;install&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

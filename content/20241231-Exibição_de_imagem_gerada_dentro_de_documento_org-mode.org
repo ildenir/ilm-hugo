@@ -3,6 +3,7 @@ title: "Exibição de imagem gerada dentro de documento org-mode"
 author: "Ildenir Barbosa"
 date: 2024-12-31
 draft: true
+tags: [org-mode,emacs,draft]
 ---
 
 * Introdução

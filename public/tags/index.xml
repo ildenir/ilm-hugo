@@ -2,10 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ildenir Barbosa</title>
-    <link>https://ildenir.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Ildenir Barbosa</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>pt-BR</language>
-    <atom:link href="https://ildenir.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Art</title>
+      <link>http://localhost:1313/tags/art/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/art/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blender</title>
+      <link>http://localhost:1313/tags/blender/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/blender/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cg</title>
+      <link>http://localhost:1313/tags/cg/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wacom</title>
+      <link>http://localhost:1313/tags/wacom/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wacom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Esl</title>
+      <link>http://localhost:1313/tags/esl/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/esl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estudo</title>
+      <link>http://localhost:1313/tags/estudo/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/estudo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emacs</title>
+      <link>http://localhost:1313/tags/emacs/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/emacs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Org-Mode</title>
+      <link>http://localhost:1313/tags/org-mode/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/org-mode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>http://localhost:1313/tags/programming/</link>
+      <pubDate>Tue, 12 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gamedev</title>
+      <link>http://localhost:1313/tags/gamedev/</link>
+      <pubDate>Tue, 18 Aug 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gamedev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Libsdl</title>
+      <link>http://localhost:1313/tags/libsdl/</link>
+      <pubDate>Tue, 18 Aug 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/libsdl/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

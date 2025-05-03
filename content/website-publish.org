@@ -3,6 +3,7 @@ title: "Geracao estatica website com emacs org-mode"
 author: "Ildenir Barbosa"
 date: 2017-09-05
 draft: false
+tags: [emacs,org-mode]
 ---
 
 * Overview
